@@ -83,15 +83,15 @@ $ terraform destroy
 
 ### Lambda
 
-- AWS Lambda Developer Guide - https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
-- Building Lambda Functions - https://docs.aws.amazon.com/lambda/latest/dg/lambda-app.html
+- [AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+- [Building Lambda Functions](https://docs.aws.amazon.com/lambda/latest/dg/lambda-app.html)
 
 ### API Gateway
 
-- AWS API Gateway Developer Guide - https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html
-- Build an API Gateway API with Lambda Integration - https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-with-lambda-integration.html
-- Deploying an API in Amazon API Gateway - https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-deploy-api.html
+- [AWS API Gateway Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html)
+- [Build an API Gateway API with Lambda Integration](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-with-lambda-integration.html)
+- [Deploying an API in Amazon API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-deploy-api.html)
 
 ### Terraform
 
-- Terraform AWS provider - https://www.terraform.io/docs/providers/aws/
+- [Terraform AWS provider](https://www.terraform.io/docs/providers/aws/)
