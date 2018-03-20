@@ -1,8 +1,10 @@
-# To get the AWS region via ${data.aws_region.current}.
+# This is required to get the AWS region via ${data.aws_region.current}.
 data "aws_region" "current" {
 }
 
-# For go1.x runtime the handler is the name of the executable in the zip file.
+# Define a Lambda function.
+#
+# The handler is the name of the executable for go1.x runtime.
 resource "aws_lambda_function" "hello" {
   function_name = "hello"
   filename = "hello.zip"
