@@ -54,9 +54,9 @@ $ make
 In the process Terraform will ask you for a confirmation, so type `yes`. Everything should finish in less than a minute! After this you can play with the API:
 
 ```console
-$ curl -fsSL $(terraform output url)?name=world
+$ curl -fsSL $(terraform output -raw url)?name=world
 Hello, world!
-$ curl -fsSL $(terraform output url)?name=lambda
+$ curl -fsSL $(terraform output -raw url)?name=lambda
 Hello, lambda!
 ```
 
